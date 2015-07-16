@@ -15,6 +15,8 @@ Download the script, run it:
 
 ./npm-g-nosudo.sh 
 
+Use `sudo -E env "PATH=$PATH" n` to run n (node version manager)
+
 It will give you the option to fix your .bashrc .zshrc file(s) automatically to use the settings from [Sindre Sorhus' Guide](https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md)
 
 If you say "n", it will print the variables you need to enable you to fix manually.
